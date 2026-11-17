@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "CSS named colors dataset"
+version: "2026-11-17"
+date-released: "2026-11-17"
+license: CC0-1.0
+url: "https://colorcodekit.com/open-data/"
+repository-code: "https://github.com/srimurugansystems/colorcodekit-data"
+authors:
+  - name: "Sri Murugan Systems"

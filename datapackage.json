@@ -1,0 +1,111 @@
+{
+  "name": "css-named-colors",
+  "title": "CSS named colors",
+  "version": "2026-11-17",
+  "licenses": [
+    {
+      "name": "CC0-1.0",
+      "path": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "title": "CC0 1.0 Universal"
+    }
+  ],
+  "sources": [
+    {
+      "title": "W3C CSS Color Module Level 4, section 6.1 Named Colors",
+      "path": "https://www.w3.org/TR/css-color-4/#named-colors"
+    }
+  ],
+  "homepage": "https://colorcodekit.com/open-data/",
+  "resources": [
+    {
+      "name": "css-named-colors",
+      "path": "data/css-named-colors.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "name",
+            "type": "string"
+          },
+          {
+            "name": "hex",
+            "type": "string"
+          },
+          {
+            "name": "r",
+            "type": "integer"
+          },
+          {
+            "name": "g",
+            "type": "integer"
+          },
+          {
+            "name": "b",
+            "type": "integer"
+          },
+          {
+            "name": "hsl_h",
+            "type": "integer"
+          },
+          {
+            "name": "hsl_s",
+            "type": "integer"
+          },
+          {
+            "name": "hsl_l",
+            "type": "integer"
+          },
+          {
+            "name": "oklch_l",
+            "type": "number"
+          },
+          {
+            "name": "oklch_c",
+            "type": "number"
+          },
+          {
+            "name": "oklch_h",
+            "type": "number"
+          },
+          {
+            "name": "cmyk_c",
+            "type": "integer"
+          },
+          {
+            "name": "cmyk_m",
+            "type": "integer"
+          },
+          {
+            "name": "cmyk_y",
+            "type": "integer"
+          },
+          {
+            "name": "cmyk_k",
+            "type": "integer"
+          },
+          {
+            "name": "best_text",
+            "type": "string"
+          },
+          {
+            "name": "best_text_contrast",
+            "type": "number"
+          },
+          {
+            "name": "same_hex_as",
+            "type": "string"
+          },
+          {
+            "name": "nearest_other",
+            "type": "string"
+          },
+          {
+            "name": "nearest_other_deltaE2000",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ]
+}
